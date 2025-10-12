@@ -1,1 +1,9 @@
+#data is uploaded on hugging face to download zip dataset file run this command in python
 
+from huggingface_hub import hf_hub_download
+
+zip_path = hf_hub_download(
+    repo_id="rupesh002/Patholes_Dataset",
+    repo_type="dataset",
+    filename="pothole_dataset.zip"
+)
