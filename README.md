@@ -66,24 +66,28 @@ Copy code
 
 ## Installation
 Clone the repository and install the required dependencies:  
-```bash
+'''bash
 git clone https://github.com/Rupeshbhardwaj002/MIIA_Pothole_Image_Classification_SouthAfrica.git
 cd MIIA_Pothole_Image_Classification_SouthAfrica
 pip install -r requirements.txt
-Usage
+
+---
+
+## Usage
+
 Data preprocessing – Resize images, normalize, and split into training/validation sets.
 
 Train the model – Run the training script:
 
-bash
-Copy code
 python main.py --train
+
+
 Make predictions on test images – Run:
 
-bash
-Copy code
 python main.py --predict
-Model Training
+
+## Model Training
+
 Architecture: Convolutional Neural Network (CNN)
 
 Loss Function: Cross-Entropy Loss
@@ -94,7 +98,8 @@ Metrics: Accuracy, Precision, Recall
 
 Epochs: Configurable in main.py
 
-Evaluation
+## Evaluation
+
 The model is evaluated on a validation set using:
 
 Accuracy: Measures overall correctness
@@ -103,21 +108,21 @@ Precision: Measures correctly predicted potholes over all predicted potholes
 
 Recall: Measures correctly predicted potholes over all actual potholes
 
-Results are saved and visualized in notebooks/ folder.
+Results are saved and visualized in the notebooks/ folder.
 
-Results
+## Results
+
 High accuracy in detecting potholes in South African road images
 
 Confusion matrix and classification report generated for model analysis
 
 Include sample images of predictions or graphs here if possible.
 
-Future Work
+## Future Work
+
 Expand dataset with more diverse road conditions
 
 Implement real-time pothole detection using video feeds
 
 Experiment with transfer learning using pre-trained CNN models
 
-License
-This project is licensed under the MIT License – see the LICENSE file for details.
