@@ -48,16 +48,7 @@ Model weights hosted on Hugging Face:
 ---
 
 ## Project Structure
-MIIA_Pothole_Image_Classification_SouthAfrica/
-│
-├── images/ # Raw images
-├── train.csv # Training data with labels
-├── test.csv # Test data for prediction
-├── notebooks/ # Jupyter notebooks for EDA, preprocessing, training
-├── models/ # Saved trained models
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── main.py # Main script for preprocessing, training, prediction
+![Uploading ChatGPT Image Oct 18, 2025, 10_26_32 PM.png…]()
 
 yaml
 Copy code
