@@ -48,7 +48,9 @@ Model weights hosted on Hugging Face:
 ---
 
 ## Project Structure
-![Uploading ChatGPT Image Oct 18, 2025, 10_26_32 PM.png…]()
+
+<img width="1536" height="1024" alt="ChatGPT Image Oct 18, 2025, 10_26_32 PM" src="https://github.com/user-attachments/assets/90b91467-9870-4f27-8aa7-66408baee920" />
+
 
 yaml
 Copy code
